@@ -60,3 +60,82 @@ Winx'i bir MicUp sunucusuna davet eden yöneticiler ve komutları kullanan üyel
 KVKK başvuruları, telif (FSEK / DMCA) bildirimleri ve teknik geri bildirimler için:  
 * **Proje Ekibi:** Winx Development hestia35
 * **Winx Destek Sunucusu:** https://micup.gg/invite/6y8BCIUi
+
+# 🌸 WINX – DATA PROTECTION, KVKK PRIVACY NOTICE & TERMS OF SERVICE
+
+**Publication Date:** November 19, 2026  
+**Scope:** Winx Voice and Music Assistant Operating on the MicUp Platform  
+**Available Languages:** Turkish & English
+
+---
+
+## SECTION I — PRIVACY NOTICE UNDER TURKISH PERSONAL DATA PROTECTION LAW (KVKK No. 6698)
+
+This notice has been prepared to clearly and transparently inform all community members who host Winx Music Assistant on their servers or use its commands about how their personal data is handled.
+
+### 1. Responsibility and Approach
+
+The Winx project has been developed based on the principle of **"Minimum Data, Maximum Privacy."** No user information that is not strictly necessary for the operation of the system is requested, stored, or profiled.
+
+### 2. Information Temporarily Processed During Active Sessions
+
+To respond accurately to your commands and maintain voice channel management, only the following technical information is accessed temporarily in volatile memory (RAM):
+
+- **Account and Server Identifiers:** The ID of the account initiating the command, the server ID, and information about the voice channel the user is connected to.
+- **Visible Username:** Used exclusively during the rendering of the music playback card to indicate who requested the track.
+- **Application Language Preference (Locale):** Temporarily processed to automatically adapt the bot's responses and card text to the user's MicUp application language (Turkish or English).
+- **Command Parameters:** Only music search and playback control inputs submitted using the `.` prefix or `/` slash commands are processed.
+
+### 3. Data That Is Never Collected or Processed
+
+- **Voice Communications:** Winx only broadcasts music streams in voice channels. It does not listen to, decode, record, or transmit users' microphone audio.
+- **Regular Chat Messages:** Ordinary text messages that are not recognized as commands are neither read nor stored by the system.
+- **Identity and Contact Information:** Winx has no access to sensitive personal information such as real names, email addresses, phone numbers, location data, IP addresses, or account passwords.
+
+### 4. Legal Basis and Data Deletion Process
+
+Temporary technical data is processed automatically under the legal grounds specified in Article 5, Paragraph 2 of Turkish Personal Data Protection Law No. 6698 (KVKK), particularly where processing is necessary for the direct provision of the service and ensuring system security and stability.
+
+Since Winx does not maintain a permanent database, all temporary data held in memory is automatically cleared when playback ends, the session is terminated, or the service is restarted.
+
+### 5. Data Transfers and User Rights
+
+No data is shared with third parties, advertising networks, or domestic or international commercial entities.
+
+In accordance with Article 11 of the KVKK, users retain their rights to inquire whether their personal data is being processed, request information about such processing, and request the deletion of their data.
+
+Since no permanent records are maintained, removing the bot from your server or terminating the active session is sufficient to clear the temporary data held by the bot.
+
+---
+
+## SECTION II — TERMS OF SERVICE AND LIMITATION OF LIABILITY
+
+Server administrators who invite Winx to a MicUp server, as well as members who use its commands, are deemed to have accepted the following terms:
+
+1. **Scope of Service:** Winx is an auxiliary tool that provides real-time audio streaming from publicly accessible external media sources upon user request. It does not guarantee uninterrupted availability or zero latency. Temporary interruptions may occur during maintenance and update periods.
+
+2. **Fair Use:** Excessively frequent command requests, generating excessive server load through automated scripts, attempting to sabotage the service, or playing content that violates MicUp community standards are strictly prohibited. Access to servers identified as engaging in misuse may be restricted.
+
+3. **Copyright and Content Ownership:** Winx does not host any audio or video files on its own servers. It solely acts as a real-time audio relay, bridging publicly accessible streams from external platforms into voice channels. All intellectual property rights remain with their respective producers and copyright holders. Upon receiving valid copyright infringement notices, the transmission of the relevant link will be promptly blocked.
+
+---
+
+## SECTION III — ENGLISH LEGAL, PRIVACY & TERMS SUMMARY
+
+**Effective Date:** November 19, 2026  
+**Service:** Winx Music Assistant for MicUp
+
+- **Zero-Database Privacy:** Winx operates exclusively using volatile memory (RAM). It does not maintain a persistent user database, store chat logs, or record or listen to voice channels.
+- **Ephemeral Processing:** Only the minimum technical information required to fulfill user commands — including user IDs, display names (for Now Playing cards), server and voice channel IDs, command inputs, and application locale (`tr`/`en`) for automatic language selection — is processed in real time and discarded when the session ends.
+- **No Third-Party Sharing:** Session data is never sold, rented, or transferred to advertisers or other third parties.
+- **Fair Use & Copyright:** Users must comply with MicUp's Terms of Service and must not spam or abuse the bot. Winx does not host or store copyrighted media files; it acts solely as a real-time streaming relay for publicly accessible sources. Valid copyright takedown requests are handled promptly.
+
+---
+
+## CONTACT
+
+For KVKK applications, copyright (FSEK / DMCA) notices, and technical feedback:
+
+- **Development Team:** Winx Development — hestia35
+- **Winx Support Server:** https://micup.gg/invite/6y8BCIUi
+
