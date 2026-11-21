@@ -18,7 +18,7 @@ Komutlarınızı doğru biçimde yanıtlayabilmek ve ses odası düzenini koruma
 * **Hesap ve Sunucu Tanımlayıcıları:** Komutu tetikleyen hesabın kimlik numarası, bulunduğu sunucu kimliği ve bağlı olduğu ses odası bilgisi.
 * **Görünen Kullanıcı Adı:** Müzik oynatma kartında parçayı kimin talep ettiğini göstermek amacıyla yalnızca kart çizimi sırasında kullanılır.
 * **Uygulama Dil Tercihi (Locale):** Botun yanıtlarını ve kart metinlerini kullanıcının MicUp uygulama diline (Türkçe veya İngilizce) göre otomatik uyarlamak için geçici olarak değerlendirilir.
-* **Komut Parametreleri:** Yalnızca `.` ön ekiyle veya `/` slash komutuyla gönderilen müzik arama ve kontrol girdileri işlenir.
+* **Komut Parametreleri:** Yalnızca `w!` ön ekiyle veya `/` slash komutuyla gönderilen müzik arama ve kontrol girdileri işlenir.
 
 ### 3. Kesinlikle Kaydedilmeyen ve İşlenmeyen Veriler
 * **Ses İletişimi:** Winx, sesli odalarda yalnızca müzik akışı yayınlar; mikrofon seslerini dinlemez, çözmez, kaydetmez veya dışarıya aktarmaz.
@@ -84,7 +84,7 @@ To respond accurately to your commands and maintain voice channel management, on
 - **Account and Server Identifiers:** The ID of the account initiating the command, the server ID, and information about the voice channel the user is connected to.
 - **Visible Username:** Used exclusively during the rendering of the music playback card to indicate who requested the track.
 - **Application Language Preference (Locale):** Temporarily processed to automatically adapt the bot's responses and card text to the user's MicUp application language (Turkish or English).
-- **Command Parameters:** Only music search and playback control inputs submitted using the `.` prefix or `/` slash commands are processed.
+- **Command Parameters:** Only music search and playback control inputs submitted using the `w!` prefix or `/` slash commands are processed.
 
 ### 3. Data That Is Never Collected or Processed
 
